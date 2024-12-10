@@ -33,13 +33,16 @@ Put and image of your UML Diagram here. Upload the image of your UML Diagram to 
 
 Record a short video of your abstract art animation to display here on your README. You can do this by:
 
+
+
 - Screen record your project running on Code.org.
 - Upload that recording to YouTube.
 - Take a thumbnail for your image.
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](![alt text](image-2.png))](https://youtube.com/shorts/wJGORtsyvHs?si=yfrRHrbH3oXrVPa5
+)
 
 ## Description
 
