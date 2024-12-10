@@ -73,18 +73,21 @@ public void findHighestPrice() {
         System.out.println("No gas price data"); //If the first print ln does not work it will print out no gas price data availiable instead 
     }
 }
-
-public int randomGasPrice(){ 
+public  GasPrice getRandomGasPrice(){ 
 int randomIndex = (int) (Math.random() * gasPrices.length);  //Makes a int random index and uses math.random to multiply a random value in the gas prices txt file to  print out a random value
 
-return randomIndex; //returns the random value 
+return gasPrices[randomIndex]; //returns the random value 
   
 }
 
   public void drawScene() {
     clear("white");
+setTextHeight(15);
+    setTextColor("black");
+        GasPrice randomGasPrice = getRandomGasPrice();
+      drawText(randomGasPrice.toString(), 20, 40);
 
-    
+        
   }
 
 }
